@@ -1,3 +1,12 @@
+/*----------------------------------------------------
+@File: Default Styles
+@Author: JUBAYER HASAN ASIF
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+---------------------------------------------------- */
+
 /*--- Fonts --- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*--- Global css --- */
@@ -125,8 +134,59 @@ body
 .main-lines{
     margin-top: 175px;
 }
-
-
+.primary_btn 
+{
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 46px;
+    outline: none !important;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-image: linear-gradient(to right top, #a41919, #b73239, #c84958, #d66177, #e17994);
+    border: double 2px transparent;
+    box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3); 
+}
+.primary_btn span 
+{
+      padding: 0 35px; 
+}
+.primary_btn.tr-bg 
+{
+      background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #a41919, #e17994);
+      border: 2px solid transparent;
+      color: #222222;
+      box-shadow: none; 
+}
+.primary_btn.tr-bg:hover 
+{
+        background-image: linear-gradient(to right, #a41919 0%, #e17994 100%), radial-gradient(circle at top left, #a41919, #e17994);
+        border: double 2px transparent;
+        color: #ffffff;
+        box-shadow: 0px 10px 30px rgba(66, 29, 34, 0.3); 
+}
+.primary_btn:hover 
+{
+      background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #a41919, #e17994);
+      border: 2px solid #d54141;
+      color: #222222;
+      box-shadow: none;
+      background-clip: border-box; 
+}
+.align-items-center > a
+{
+    text-decoration: none;
+    s
+}
+.align-items-center {
+    margin-right: 300px;
+}
 
 
 
