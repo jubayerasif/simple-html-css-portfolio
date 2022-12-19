@@ -1,7 +1,5 @@
 /*----------------------------------------------------
-@File: Default Styles
-@Author: JUBAYER HASAN ASIF
-
+@Author: "JUBAYER HASAN ASIF"
 This file contains the styling for the actual theme, this
 is the file you need to edit to change the look of the
 theme.
@@ -9,8 +7,8 @@ theme.
 
 /*--- Fonts --- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/*--- Global css --- */
 
+/*--- Main CSS --- */
 *
 {
     margin:0 auto;
@@ -76,7 +74,11 @@ body
     color:transparent;
     background:#d54141;
     height:2px;
-    transition:all .3s ease;
+    transition:all 1s ease;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    -o-transition:all 1s ease;
 }
 .navbar .navbar-nav li a:hover
 {
@@ -120,6 +122,7 @@ body
     -o-box-shadow:0 0 5px 0 rgba(0,0,0,0.2);
     box-shadow:0 0 5px 0 rgba(0,0,0,0.2);
 }
+
 .half-width
 {
         width:45%;
@@ -128,11 +131,13 @@ body
         padding-left: 2%;
         margin-top: 3%;
 }
-.hero-section {
+.hero-section 
+{
     height: 500px;
     padding-bottom: 150px;
 }
-.main-lines{
+.main-lines
+{
     margin-top: 175px;
 }
 .primary_btn 
@@ -180,14 +185,17 @@ body
       box-shadow: none;
       background-clip: border-box; 
 }
+
 .align-items-center > a
 {
     text-decoration: none;
 }
-.align-items-center {
+.align-items-center 
+{
     margin-right: 300px;
 }
-.scroll-down {
+.scroll-down 
+{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -195,23 +203,75 @@ body
     font-weight: 500;
     text-align: center;
 }
-.scroll-down .scroll-box {
+.scroll-down .scroll-box 
+{
     height: 30px;
     width: 30px;
     line-height: 25px;
     text-align: center;
 }
-.about-section{
+
+.about-section
+{
     margin-top: 400px;
+    padding-bottom: 150px;
 }
-.about-section > .container > .half-width > img{
+.about-section > .container > .half-width > img
+{
+    width: 800px;
+    height: 600px;
+    margin-left: -150px;
+    margin-top: -150px;
+} 
+.container-fluid
+{
+    height: 400px;
+    padding-bottom: 250px;
+}
+.element.style 
+{
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 0.6s ease 0.2s, transform 0.6s ease 0.2s;
+}
+.ido .col4 .inside
+ {
+    height: 100%;
+    background: #fff;
+    position: relative;
+    padding: 35px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 15%);
+}
+
+.portfolio-section
+{
+    margin-top: 500px;
+}
+.portfolio-section > .container > .half-width > img
+{
     width: 600px;
     height: 400px;
-} 
+    margin-top: -75px;
+}
 
-
+footer 
+{
+    font-weight: 400;
+}
+footer p a 
+{
+    color: #d54141;
+    text-decoration: none;
+    margin: 0 50px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
 
 
 
 /* Thanks for watching */
-/* ##/11/2022 *0
+/* 20/12/2022 */
