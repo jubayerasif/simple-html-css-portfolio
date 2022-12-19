@@ -88,7 +88,7 @@ body
 }
 .navbar .navbar-nav li:last-child a
 {
-    background:#d54141;
+    background-image: linear-gradient(to right top, #a41919, #b73239, #c84958, #d66177, #e17994);
     color:#fff !important;
     padding:5px 10px !important;
     border-radius:5px;
@@ -111,7 +111,8 @@ body
 {   
     color:#d54141 !important;
 }
-.fixed-top{
+.fixed-top
+{
     background:#fff;
     -webkit-box-shadow:0 0 5px 0 rgba(0,0,0,0.2);
     -moz-box-shadow:0 0 5px 0 rgba(0,0,0,0.2);
@@ -203,7 +204,10 @@ body
 .about-section{
     margin-top: 400px;
 }
-
+.about-section > .container > .half-width > img{
+    width: 600px;
+    height: 400px;
+} 
 
 
 
